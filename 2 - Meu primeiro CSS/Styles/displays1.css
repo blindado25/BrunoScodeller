@@ -1,0 +1,26 @@
+.menu{
+    background-color: aquamarine;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.bird{
+    position: absolute;
+    top: 60;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hello{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

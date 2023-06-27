@@ -1,0 +1,68 @@
+html,
+body {
+    font-family: Roboto mono, monospace;
+}
+
+
+a {
+    background-color: red;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+div.div {
+    border: 2px solid blue;
+}
+
+p.pbase {
+    background-color: burlywood;
+}
+
+.psegundo {
+    background-color: orange;
+}
+
+.h6-3 {
+    background-color: beige;
+}
+
+.link-front {
+    background-color: purple;
+    color: aliceblue;
+}
+
+.div-parentes {
+    border: 1px solid black;
+}
+
+.div-parentes div {
+    background-color: blueviolet;
+    color: white;
+}
+
+.div-parentes h6 {
+    color: red;
+}
+
+.div-parentes h6>h6 {
+    color: blue;
+}
+
+.div-parentes h6~h6 {
+    color: blue;
+}
+
+.h3-parentes h4 {
+    border: 50px solid blue;
+    color: red;
+}
+
+.h3-parentes h4>h4 {
+    color: pink;
+}
+
+.h3-parentes h4~h4 {
+    color: orange;
+}

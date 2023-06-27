@@ -1,0 +1,85 @@
+.menu {
+    background-color: #0a0a0a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    border: 1px solid #3b3b3b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+body {
+    background-color: 0a0a0a;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #1a1a1a;
+}
+
+.span-menu {
+    padding: 0 20;
+    color: white;
+}
+
+.meio {
+    display: flex;
+    position: relative;
+    margin-top: 108px;
+    padding: 0 20px;
+    color: white;
+    align-items: flex-start;
+}
+
+.mao-hello {
+    width: 38px;
+    margin-left: 6px;
+}
+
+.img-comp-astro {
+    width: 100%;
+    max-width: 420px;
+}
+
+.titulo {
+    max-width: 550px;
+    margin: 15px 0;
+    font-size: 47px;
+    line-height: 56px;
+}
+
+.ola {
+    color: #91d5ff;
+}
+
+.botao {
+    margin-top: 48px;
+    background: #0289ea;
+    color: white;
+    padding: 13px 65px;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.botao1 {
+    color: white;
+    background: #0289ea;
+    padding: 13px 65px;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: transparent;
+
+}
+
+.botao2 {
+    color: white;
+    padding: 13px 65px;
+    background: none;
+    border-radius: 8px;
+    border-color: transparent;
+    cursor: pointer;
+}

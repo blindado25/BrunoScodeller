@@ -1,0 +1,76 @@
+.margins-container {
+    background-color: cyan;
+    margin: 10px;
+    margin-top: 50px;
+
+    padding: 10px;
+    padding-top: 50px;
+
+
+}
+
+.top {
+    margin-top: 50px;
+    background-color: rgba(98, 109, 67, 1);
+}
+
+.right {
+    margin-right: 50px;
+    background-color: #1f6feb;
+}
+
+.botton {
+    margin-bottom: 50px;
+    background-color: hsl(21.25deg, 35.29%, 26.67%);
+}
+
+.left {
+    margin-left: 50px;
+    background-color: blueviolet;
+}
+
+.um-valor {
+    margin: 10px;
+    background-color: pink;
+}
+
+.dois-valor {
+    margin: 10px 20px;
+    background-color: bisque;
+}
+
+.tres-valor {
+    margin: 10px 20px 30px;
+    background-color: orange;
+}
+
+.quatro-valor {
+    margin: 10px 20px 30px 40px;
+    background-color: olive;
+}
+
+.oi {
+    background-color: greenyellow;
+    display: inline-block;
+    width: 50%;
+    padding: 10%;
+}
+
+.fonte {
+    background-color: red;
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.size {
+    font-size: 50px;
+}
+
+.weight {
+    font-weight: 100;
+}
+
+.color {
+    color: yellow;
+}
