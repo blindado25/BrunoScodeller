@@ -1,0 +1,153 @@
+.content {
+    background: #f9f9f9;
+    min-height: 100vh;
+  }
+
+  .risco{
+    width: 1920px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #E2E2E2;
+  }
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .logo{
+    color: #100F0F;
+    font-size: 56px;
+    font-family: Caesar Dressing;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 16px 0;
+  }
+  .menu-alinha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .display-alinhamento{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .display{
+    max-width: max-content;
+    position: flex;
+    display: inline-block;
+    width: 100%;
+  }
+
+.imagem{
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+  .texto-maior{
+    position: absolute;
+    padding: 0px 0px 20px 20px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+  .texto-menor1{
+    position: absolute;
+    padding: 0px 190px 131px 20px;
+    color: #E2E2E2;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+.texto-menor2{
+    position: absolute;
+    padding: 0px 200px 98px 20px;
+    color: #E2E2E2;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+  .texto-menor3{
+    position: absolute;
+    padding: 0px 179px 98px 20px;
+    color: #E2E2E2;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+  .texto-menor4{
+    position: absolute;
+    padding: 0px 0px 65px 20px;
+    color: #E2E2E2;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+  
+  .distancia{
+    padding: 40px 0 0 0;
+  }
+
+  .segundo-menu{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 40px 0 50px 0;
+  }
+  .segundo-menu p{
+    padding: 0px 48px;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+
+  .carregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 0 41px 0;
+    gap: 16px;
+    color: #100F0F;
+    font-size: 18px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 24px 0;
+    color: #100F0F;
+    font-size: 18px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .rodape-esquerdo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .rodape-direito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
