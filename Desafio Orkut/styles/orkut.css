@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'orkut';
+    src: url(../Fontes/SFPRODISPLAYMEDIUM.OTF) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* tipos de format
+- opentype (OTP)
+- truetype (ttf)
+- embedded-opentype
+- truetupe-att
+- svg */
+
+* {
+    font-family: orkut;
+}
+
+body {
+    background-color: #D9E6F7;
+}
+
+.color-top {
+    background-color: #FDFEFF;
+    ;
+}
+
+.menu {
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1216px;
+
+}
+
+.alinhamento-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1216px;
+
+}
+
+.menu-esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 144px 0 0;
+}
+
+.alinhamento-topo p {
+    color: #4B4B4B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.menu-esquerda span {
+    color: #ED2590;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.botao-pesquisa {
+    background: #EFF3F8;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 355px;
+    height: 43.959px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+    gap: 12px;
+}
+
+.botao-pesquisa img {
+    padding: 0 0 0 15px;
+}
+
+.topo-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.foto-topo-direito {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.alinhamento div {
+    border-radius: 16px;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.centro {
+    background-color: #FDFEFF;
+    width: 592px;
+    height: 854px;
+    padding: 0px 24px;
+}
+
+.direita {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.editar-perfil {
+    background-color: #FDFEFF;
+    width: 280px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ED2590;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.editar-perfil h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nome {
+    color: #4B4B4B;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nacionalidade {
+    color: #4B4B4B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.amigos {
+    background-color: #FDFEFF;
+    width: 280px;
+    height: 411px;
+    padding: 24px;
+}
+
+.amigos p {
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amigos h1 {
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-amigos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0 0;
+}
+
+
+.lista-amigos p {
+    padding: 8px 0 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lista-amigos img {
+    cursor: pointer;
+}
+
+.comunidades {
+    background-color: #FDFEFF;
+    width: 280px;
+    height: 411px;
+}
+
+.perfil {
+    background-color: #FDFEFF;
+    height: 324px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 184px;
+    height: 184px;
+    padding: 7px;
+    border: 3px solid #ED2590;
+    cursor: pointer;
+}
+
+.centro h1 {
+    color: #4B4B4B;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 24px 0 25.63px 0;
+}
+
+.centro h2 {
+    width: 544px;
+    height: 39.365px;
+    border-radius: 10px;
+    background: #EFF3F8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 12px;
+}
+
+.centro-topo {
+    display: flex;
+    gap: 46px;
+    padding: 32px 0px 32px 0px;
+}
+
+.centro-topo span {
+    display: flex;
+    cursor: pointer;
+}
+
+.fas {
+    color: #4B4B4B;
+    opacity: 0.5;
+}
+
+.centro-meio {
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    display: flex;
+    color: #B4AEAE;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 12px;
+    padding: 0px 0px 24px 0px;
+}
+
+.div1 p {
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.rosa {
+    color: #ED2590;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.borda1 {
+    border-radius: 30px;
+    border: 1px solid #ED2590;
+    padding: 2px 16px;
+}
+
+.espaco {
+    padding: 80px 0 0;
+}
