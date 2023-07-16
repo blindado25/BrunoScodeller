@@ -1,0 +1,25 @@
+/* media query */
+/* breakpoint: 810px */
+@media screen and (max-width: 1300px) {
+
+    .alinhamento-topo {
+        flex-direction: column;
+        width: max-content;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        width: max-content;
+        height: 150px;
+        align-items: center;
+    }
+
+    .alinhamento {
+        flex-direction: column;
+        width: max-content;
+        align-items: center;
+    }
+
+
+}

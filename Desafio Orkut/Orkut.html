@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/orkut.css" />
+    <link rel="stylesheet" href="./styles/resposividade.css" />
+    <script src="./Script/script.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orkut</title>
@@ -15,24 +17,28 @@
             <img src="./Imagens/logo-orkut.png" alt="" />
           </a>
           <div class="menu-esquerda">
-            <p>inicio</p>
-            <span>Perfil</span>
-            <p>Comunidades</p>
-            <p>Jogos</p>
+            <a href="" target="_blank"><p>inicio</p></a>
+            <a href="" target="_blank"><span>Perfil</span></a>
+            <a href="" target="_blank"><p>Comunidades</p></a>
+            <a href="" target="_blank"><p>Jogos</p></a>
           </div>
           <div class="botao-pesquisa">
             <img src="./Imagens/MagnifyingGlass.svg" alt="" />
-            Pesquisa no Orkut
+            <input type="text" placeholder="Pesquisa no Orkut" />
           </div>
-          <div class="topo-direita">
-            <img
-              class="foto-topo-direito"
-              src="./Imagens/a8Em4R6_460s.jpg"
-              alt=""
-            />
-            Geralt Rivia
-            <img src="./Imagens/CaretDown.svg" alt="" />
-          </div>
+          <a href="" target="_blank">
+            <div class="topo-direita">
+              <div class="foto-contem">
+                <img
+                  class="foto-topo-direito"
+                  src="./Imagens/a8Em4R6_460s.jpg"
+                  alt=""
+                />
+              </div>
+              Geralt Rivia
+              <img src="./Imagens/CaretDown.svg" alt="" />
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -43,13 +49,19 @@
       <div class="alinhamento">
         <div class="esquerda">
           <div class="perfil">
-            <img src="./Imagens/gerald.png" alt="" />
+            <a href="" target="_blank">
+              <div class="img-borda">
+                <div class="img-contem">
+                  <img class="img-perfil" src="./Imagens/gerald.png" alt="" />
+                </div>
+              </div>
+            </a>
             <h1 class="nome">Geralt de Rivia</h1>
             <h1 class="nacionalidade">Solteiro, Brasil</h1>
           </div>
 
           <div class="editar-perfil">
-            <h1>Editar meu perfil</h1>
+            <a href="" target="_blank"> Editar meu perfil </a>
           </div>
         </div>
 
@@ -64,31 +76,47 @@
           <div class="centro-topo">
             <p>
               Fãs
-              <span
-                ><img src="./Imagens/Star.svg" alt="" />
-                <span class="fas">85</span></span
-              >
+              <span>
+                <button onclick="star()">
+                  <img src="./Imagens/Star.svg" alt="" />
+                </button>
+                <span class="fas">85</span>
+              </span>
             </p>
             <p>
               Confiável
               <span>
-                <img src="./Imagens/Smiley.svg" alt="" />
-                <img src="./Imagens/Smiley.svg" alt="" />
+                <button onclick="smiley()">
+                  <img src="./Imagens/Smiley.svg" alt="" />
+                </button>
+                <button onclick="smiley()">
+                  <img src="./Imagens/Smiley.svg" alt="" />
+                </button>
               </span>
             </p>
             <p>
               Legal
               <span>
-                <img src="./Imagens/ThumbsUp.svg" alt="" />
-                <img src="./Imagens/ThumbsUp.svg" alt="" />
-                <img src="./Imagens/ThumbsUp.svg" alt="" />
+                <button onclick="legal()">
+                  <img src="./Imagens/ThumbsUp.svg" alt="" />
+                </button>
+                <button onclick="legal()">
+                  <img src="./Imagens/ThumbsUp.svg" alt="" />
+                </button>
+                <button onclick="legal()">
+                  <img src="./Imagens/ThumbsUp.svg" alt="" />
+                </button>
               </span>
             </p>
             <p>
               Sexy
               <span>
-                <img src="./Imagens/Heart.svg" alt="" />
-                <img src="./Imagens/Heart.svg" alt="" />
+                <button onclick="sexy()">
+                  <img src="./Imagens/Heart.svg" alt="" />
+                </button>
+                <button onclick="sexy()">
+                  <img src="./Imagens/Heart.svg" alt="" />
+                </button>
               </span>
             </p>
           </div>
@@ -139,13 +167,17 @@
               <p class="borda1">Trap</p>
               <p class="borda1">Rap</p>
               <p class="borda1">Indie</p>
-              <span class="rosa">Ver todos</span>
+              <a href="" target="_blank">
+                <span class="rosa">Ver todos</span>
+              </a>
             </div>
             <div class="div1">
               Filmes:
               <p class="borda1">A rede social</p>
               <p class="borda1">Meu amigo totoro</p>
-              <span class="rosa">Ver todos</span>
+              <a href="" target="_blank">
+                <span class="rosa">Ver todos</span>
+              </a>
             </div>
           </div>
         </div>
@@ -153,51 +185,69 @@
         <div class="direita">
           <div class="amigos">
             <h1>
-              Amigos (248)
-              <span class="rosa">Ver Todos</span>
+              <a href="" target="_blank">Amigos (248)</a>
+              <a href="" target="_blank"><span class="rosa">Ver Todos</span></a>
             </h1>
             <div class="lista-amigos">
               <div>
-                <img src="./Imagens/Fernando.png" alt="" />
-                <p>Fernando</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Fernando.png" alt="" />
+                  <p>Fernando</p>
+                </a>
               </div>
               <div>
-                <img src="./Imagens/Ana.png" alt="" />
-                <p>Ana</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Ana.png" alt="" />
+                  <p>Ana</p>
+                </a>
               </div>
               <div>
-                <img src="./Imagens/Carlos.png" alt="" />
-                <p>Carlos</p>
-              </div>
-            </div>
-
-            <div class="lista-amigos">
-              <div>
-                <img src="./Imagens/Vitor.png" alt="" />
-                <p>Vitor</p>
-              </div>
-              <div>
-                <img src="./Imagens/Matheus.png" alt="" />
-                <p>Matheus</p>
-              </div>
-              <div>
-                <img src="./Imagens/Ramos.png" alt="" />
-                <p>Ramos</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Carlos.png" alt="" />
+                  <p>Carlos</p>
+                </a>
               </div>
             </div>
 
             <div class="lista-amigos">
               <div>
-                <img src="./Imagens/Eiji.png" alt="" />
-                <p>Eiji</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Vitor.png" alt="" />
+                  <p>Vitor</p>
+                </a>
               </div>
               <div>
-                <img src="./Imagens/Julia.png" alt="" />
-                <p>Julia</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Matheus.png" alt="" />
+                  <p>Matheus</p>
+                </a>
               </div>
               <div>
-                <img src="./Imagens/Carol.png" alt="" />
-                <p>Carol</p>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Ramos.png" alt="" />
+                  <p>Ramos</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="lista-amigos">
+              <div>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Eiji.png" alt="" />
+                  <p>Eiji</p>
+                </a>
+              </div>
+              <div>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Julia.png" alt="" />
+                  <p>Julia</p>
+                </a>
+              </div>
+              <div>
+                <a href="" target="_blank">
+                  <img src="./Imagens/Carol.png" alt="" />
+                  <p>Carol</p>
+                </a>
               </div>
             </div>
           </div>
@@ -205,51 +255,71 @@
           <div class="comunidades">
             <div class="amigos">
               <h1>
-                Comunidade (42)
-                <span class="rosa">Ver Todos</span>
+                <a href="" target="_blank">Comunidade (42)</a>
+                <a href="" target="_blank">
+                  <span class="rosa">Ver Todos</span>
+                </a>
               </h1>
               <div class="lista-amigos">
                 <div>
-                  <img src="./Imagens/Carros.png" alt="" />
-                  <p>Carros</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Carros.png" alt="" />
+                    <p>Carros</p>
+                  </a>
                 </div>
                 <div>
-                  <img src="./Imagens/Desenhos.png" alt="" />
-                  <p>Desenhos</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Desenhos.png" alt="" />
+                    <p>Desenhos</p>
+                  </a>
                 </div>
                 <div>
-                  <img src="./Imagens/Crazy.png" alt="" />
-                  <p>Crazy</p>
-                </div>
-              </div>
-
-              <div class="lista-amigos">
-                <div>
-                  <img src="./Imagens/Fofos.png" alt="" />
-                  <p>Fofos</p>
-                </div>
-                <div>
-                  <img src="./Imagens/Animes.png" alt="" />
-                  <p>Animes</p>
-                </div>
-                <div>
-                  <img src="./Imagens/Leitura.png" alt="" />
-                  <p>Leitura</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Crazy.png" alt="" />
+                    <p>Crazy</p>
+                  </a>
                 </div>
               </div>
 
               <div class="lista-amigos">
                 <div>
-                  <img src="./Imagens/Meuovo.png" alt="" />
-                  <p>Meu ovo</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Fofos.png" alt="" />
+                    <p>Fofos</p>
+                  </a>
                 </div>
                 <div>
-                  <img src="./Imagens/Mybooks.png" alt="" />
-                  <p>My books</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Animes.png" alt="" />
+                    <p>Animes</p>
+                  </a>
                 </div>
                 <div>
-                  <img src="./Imagens/cafe.png" alt="" />
-                  <p>Cafeeee</p>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Leitura.png" alt="" />
+                    <p>Leitura</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="lista-amigos">
+                <div>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Meuovo.png" alt="" />
+                    <p>Meu ovo</p>
+                  </a>
+                </div>
+                <div>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/Mybooks.png" alt="" />
+                    <p>My books</p>
+                  </a>
+                </div>
+                <div>
+                  <a href="" target="_blank">
+                    <img src="./Imagens/cafe.png" alt="" />
+                    <p>Cafeeee</p>
+                  </a>
                 </div>
               </div>
             </div>
